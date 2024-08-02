@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ac00b2;
+  color: white;
+}
+/* theme selection and caption */
+#containerOne {
+  width: 20rem;
+  display: flex;
+  margin-top: 8rem;
+  justify-content: space-between;
+  align-items: end;
+}
+#themeContainer {
+  display: flex;
+  align-items: flex-end;
+}
+
+#themeNumbers {
+  display: flex;
+  width: 3rem;
+  justify-content: space-between;
+  margin-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+#themeHolder {
+  display: flex;
+  justify-content: space-evenly;
+  height: 1rem;
+  background-color: #ff00ff;
+  border-radius: 5rem;
+  /* padding-left: 4rem; */
+}
+
+#themeSpan {
+  padding-right: 1rem;
+}
+
+#display {
+  background-color: #ff00ff;
+}
+
+#numPad {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff00ff;
+  width: 20rem;
+  height: 15rem;
+}
+
+#sevenToDelete,
+#fourToPlus,
+#oneToMinus,
+#decimalToMultiply,
+#resetAndEquality {
+  display: flex;
+}
+
+#numPad button {
+  width: 3rem;
+  height: 3rem;
+}
